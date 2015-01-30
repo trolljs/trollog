@@ -1,0 +1,26 @@
+{
+  "name": "trollog",
+  "main": "trollog.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/trolljs/trollog",
+  "authors": [
+    "trolljs"
+  ],
+  "description": "alerts for always",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "alert",
+    "console",
+    "troll"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

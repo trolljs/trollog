@@ -1,0 +1,25 @@
+{
+  "name": "trollog",
+  "version": "0.1.0",
+  "description": "alerts for always",
+  "main": "trollog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/trolljs/trollog.git"
+  },
+  "keywords": [
+    "browserify",
+    "troll",
+    "console",
+    "alert"
+  ],
+  "author": "trolljs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trolljs/trollog/issues"
+  },
+  "homepage": "https://github.com/trolljs/trollog"
+}
