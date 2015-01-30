@@ -1,1 +1,0 @@
-console.log = function(val) { alert(val) }

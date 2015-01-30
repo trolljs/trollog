@@ -1,25 +1,36 @@
 {
   "name": "trollog",
-  "version": "0.1.0",
-  "description": "alerts for always",
-  "main": "trollog.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.0",
+  "description": "Alerts for always.",
+  "homepage": "https://github.com/trolljs/trollog",
+  "author": {
+    "name": "trolljs",
+    "email": "",
+    "url": "https://github.com/trolljs/trollog"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/trolljs/trollog.git"
-  },
+  "repository": "trolljs/trollog",
+  "license": "CC0",
+  "files": [
+    "index.js"
+  ],
   "keywords": [
-    "browserify",
-    "troll",
-    "console",
+    "trollog",
+    "trolljs",
+    "console.log",
     "alert"
   ],
-  "author": "trolljs",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/trolljs/trollog/issues"
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-browserify": "^3.3.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jasmine": "^0.8.2",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^1.0.0"
   },
-  "homepage": "https://github.com/trolljs/trollog"
+  "scripts": {
+    "test": "grunt",
+    "browser": "browserify index.js > browser.js"
+  }
 }
