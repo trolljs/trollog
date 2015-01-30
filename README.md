@@ -1,0 +1,2 @@
+# trollog
+alerts for always
